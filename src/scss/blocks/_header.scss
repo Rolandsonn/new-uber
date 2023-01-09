@@ -1,4 +1,7 @@
 .menu {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
   padding: 18px 0;
   background: #212121;
   &__list {
