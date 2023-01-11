@@ -29,6 +29,7 @@
   }
   &__wrapper {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
   &__box {
@@ -43,6 +44,18 @@
   }
   &__item {
     display: flex;
+    &::before {
+      content: "";
+      display: block;
+      width: 21px;
+      height: 20px;
+      background-image: url("../image/check.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  &__item-red {
+    display: flex;
     gap: 10px;
     margin-left: 20px;
     &::before {
@@ -50,7 +63,7 @@
       display: block;
       width: 21px;
       height: 20px;
-      background-image: url("../image/check.svg");
+      background-image: url("../image/check-red.svg");
       background-repeat: no-repeat;
       background-size: cover;
     }
