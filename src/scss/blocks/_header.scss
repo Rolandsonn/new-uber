@@ -28,11 +28,12 @@
 }
 header {
   position: relative;
+  height: 50px;
 }
 .sub {
   position: absolute;
   top: 50px;
-  padding: 19px 33px;
+  padding: 19px 0px;
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   &__box {
@@ -58,5 +59,25 @@ header {
   &__inner {
     display: flex;
     gap: 28px;
+  }
+}
+.hamburger {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header {
+    height: 0;
+  }
+  .menu {
+    width: 81%;
+    &__list {
+      display: none;
+    }
+  }
+
+  .hamburger {
+    width: 26px;
+    display: block;
+    margin-left: auto;
   }
 }
