@@ -64,6 +64,8 @@ header {
 .hamburger {
   display: none;
 }
+
+/* TABLET */
 @media screen and (max-width: 768px) {
   header {
     height: 0;
@@ -94,5 +96,25 @@ header {
     &__text {
       font-size: 11px;
     }
+  }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+  .sub {
+    top: 42px;
+    padding: 10px 0;
+    &__text {
+      display: none;
+    }
+    &__inner {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+
+  .menu {
+    padding: 12px 0;
   }
 }

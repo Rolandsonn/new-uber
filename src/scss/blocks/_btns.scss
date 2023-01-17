@@ -39,3 +39,10 @@
     padding: 1px 11px;
   }
 }
+@media screen and (max-width: 480px) {
+  .btn-blue {
+    font-size: 12px;
+    line-height: 1;
+    padding: 10px 5px;
+  }
+}

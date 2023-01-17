@@ -85,3 +85,24 @@
     border-radius: 5px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .foot {
+    &__wrapper {
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+    }
+    &__social-list {
+      margin: 0 auto;
+      justify-content: center;
+    }
+    &__inner {
+      width: 400px;
+      margin: 0 auto;
+    }
+    &__playmarket {
+      margin: 0 auto;
+    }
+  }
+}

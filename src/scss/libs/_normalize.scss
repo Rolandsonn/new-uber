@@ -12,6 +12,14 @@
     margin-right: auto;
     max-width: 740px;
   }
+  @media screen and (max-width: 480px) {
+    max-width: 450px;
+    // width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 ul {
   list-style: none;
